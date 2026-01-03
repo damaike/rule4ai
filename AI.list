@@ -10,7 +10,7 @@ DOMAIN-SUFFIX,generativeai.google
 # chatgpt
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,chatgpt
-DOMAIN-SUFFIX,AI.com
+DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,opendns.com
 DOMAIN-SUFFIX,civitai.com
@@ -28,6 +28,8 @@ DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,segment
 DOMAIN,cdn.usefathom.com
+AND,((DOMAIN-KEYWORD,claude),(NETWORK,udp)),REJECT
+AND,((DOMAIN-KEYWORD,anthropic),(NETWORK,udp)),REJECT
 
 # microsoft
-DOMAIN-SUFFIX,bing.com
+# DOMAIN-SUFFIX,bing.com
