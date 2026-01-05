@@ -193,8 +193,8 @@ DOMAIN-SUFFIX,bbc.co
 DOMAIN-SUFFIX,bbc.com
 
 # Claude
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,anthropic.com
+# DOMAIN-SUFFIX,claude.ai
+# DOMAIN-SUFFIX,anthropic.com
 
 # Developer 开发者常用国外网站、镜像和论坛
 DOMAIN-SUFFIX,apache.org
@@ -271,8 +271,8 @@ DOMAIN-SUFFIX,c.gle
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,googleapis.com
+# DOMAIN-SUFFIX,googleapis.cn
+# DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.cn
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gvt0.com
@@ -345,8 +345,8 @@ IP-CIDR,147.92.128.0/17,no-resolve
 IP-CIDR,203.104.128.0/19,no-resolve
 
 # OpenAi
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
+# DOMAIN-SUFFIX,openai.com
+# DOMAIN-SUFFIX,challenges.cloudflare.com
 
 # OneDrive
 DOMAIN-KEYWORD,1drv
